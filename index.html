@@ -1,0 +1,57 @@
+<!-- Set the document type to HTML5 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Set the character encoding to UTF-8 -->
+  <meta charset="UTF-8">
+  <!-- Set the title of the page to "Hidden Sidebar" -->
+  <title>Hidden Sidebar</title>
+  <!-- Link the external CSS file for styling -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <!-- Container for square buttons -->
+  <div class="square-buttons">
+    <!-- Create four square buttons with unique IDs -->
+    <button class="square-button" id="square-1"></button>
+    <button class="square-button" id="square-2"></button>
+    <button class="square-button" id="square-3"></button>
+    <button class="square-button" id="square-4"></button>
+  </div>
+  <!-- Main container for the content and sidebars -->
+  <div class="container">
+    <!-- Button to toggle the main sidebar -->
+    <button id="sidebar-toggle">Open Sidebar</button>
+    <!-- Main sidebar container -->
+    <div class="sidebar">
+      <!-- Button to close the main sidebar -->
+      <button id="sidebar-close">X</button>
+      <!-- Main sidebar content -->
+      <h2>Sidebar Content</h2>
+      <p>This is the content of the hidden sidebar.</p>
+      <!-- First sidebar container -->
+      <div class="sidebar" id="sidebar-1">
+        <h2>Sidebar Content 1</h2>
+        <p>This is the content of the first sidebar.</p>
+      </div>
+      <!-- Second sidebar container -->
+      <div class="sidebar" id="sidebar-2">
+        <h2>Sidebar Content 2</h2>
+        <p>This is the content of the second sidebar.</p>
+      </div>
+      <!-- Third sidebar container -->
+      <div class="sidebar" id="sidebar-3">
+        <h2>Sidebar Content 3</h2>
+        <p>This is the content of the third sidebar.</p>
+      </div>
+      <!-- Fourth sidebar container -->
+      <div class="sidebar" id="sidebar-4">
+        <h2>Sidebar Content 4</h2>
+        <p>This is the content of the fourth sidebar.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Link the external JavaScript file for interactivity -->
+  <script src="script.js"></script>
+</body>
+</html>
